@@ -1,0 +1,48 @@
+h1{
+    color: #dc386c;
+}
+h3{
+    color: #010b06;
+}
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right,#f86795,#feb47b,#5d0af7);
+}
+
+.container {
+    text-align: center;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 5px;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    border: 2px solid #3ecdf4;
+    cursor: pointer;
+    background:  linear-gradient(to left,#34e6e3,#b88259,#895bde);
+    color: #252220;
+}
+
+.cell:hover {
+    background: linear-gradient(to right,#dc386c,#5d3415,#39049c);
+}
+
+#message {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color:#39049c ;
+}

@@ -1,0 +1,19 @@
+body{
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    background: linear-gradient(to right, #dc386c,#5d3415,#39049c) ;
+}
+.container {
+    text-align: center;
+}
+h1{
+    color: #dc386c;
+}
+#co{
+    color: #e829a8;
+}
+
+  
